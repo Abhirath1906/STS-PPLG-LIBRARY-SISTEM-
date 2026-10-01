@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+
+
+
+.The-Header-Section {
+    width: 100%;
+    height: 5vw;
+    padding: 0 3vw;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    background-color: #F5FBF6;
+    color: black;
+    border: solid 1px #DEE4DF;
+    justify-content: space-between;
+}
+
+
+.Div-Left-Header {
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+}
+
+
+.The-Header-Icon {
+    font-size: 2vw;
+    color: #466558;
+
+}
+
+
+.The-Title-Text-Header {
+    font-size: 2vw;
+    color: #466558;
+}
+
+
+
+.Div-Right-header {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.The-Right-User-Header {
+    font-size: 1.4vw;
+
+}
+
+.The-Line {
+    position: relative;
+    left: 1vw;
+    width: 0.1px;
+    height: 3vw;
+    background-color: #466558;
+    color: #466558;
+}
+
+
+.The-Header-Section-Mb {
+    display: none;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+    .The-Header-Section {
+        display: none !important;
+    }
+
+    .The-Header-Section-Mb {
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        height: 10vw;
+        padding: 0 3vw;
+        align-items: center;
+        display: flex;
+        background-color: #F5FBF6;
+        color: black;
+        border: solid 1px #DEE4DF;
+        justify-content: space-between;
+    }
+
+
+    .Div-Left-Header-Mb {
+        display: flex;
+        align-items: center;
+        gap: 0.7vw;
+    }
+
+    .The-Header-Icon-Mb {
+        font-size: 5vw;
+        color: #466558;
+    }
+
+
+    .The-Title-Text-Header-Mb {
+        font-size: 5vw;
+        color: #466558;
+    }
+
+
+    .Div-Right-header-Mb {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+
+
+    .The-Right-User-Header-Mb {
+        font-size: 4vw;
+    }
+
+    .The-Line-Mb {
+        position: relative;
+        left: 2vw;
+        width: 1px;
+        height: 5vw;
+        background-color: #466558;
+        color: #466558;
+    }
+
+
+
+
+
+
+}
